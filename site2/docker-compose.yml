@@ -1,7 +1,7 @@
 version: '2'
 services:
   app:
-    image: nginx:1.9
+    image: nginx:1.13-alpine
     volumes:
       - .:/usr/share/nginx/html/
     expose:
