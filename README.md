@@ -25,6 +25,11 @@ or
 http://localhost:81/
 ```
 
+For stack deploy:
+```bash
+docker stack deploy -c docker-compose.stack.yml reverse
+```
+
 Base Code from:
 
 This code is from the [article](http://linoxide.com/containers/setup-nginx-reverse-proxy-docker/)
