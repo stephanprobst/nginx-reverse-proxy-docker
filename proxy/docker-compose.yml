@@ -8,7 +8,7 @@ services:
       - site2
     ports:
       - 80:80
-      - 443:443
+      - 81:81
 
 networks:
   site1:
@@ -17,4 +17,3 @@ networks:
   site2:
     external:
       name: site2_default
-
